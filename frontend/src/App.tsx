@@ -40,7 +40,6 @@ class Band extends React.Component<BandProps> {
 
     return (
       <div>
-        <img />
         <h2>{oneBand.name}</h2>
         <h3>Members: {oneBand.members}</h3>
         <h3>Formed: {oneBand.formed}</h3>
